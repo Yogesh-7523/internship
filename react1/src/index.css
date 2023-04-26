@@ -1,0 +1,23 @@
+/* 
+The code above sets default styles for the HTML body and code elements.
+
+The body styles set a margin of 0, apply a system font stack to the body text, and enable font smoothing for improved readability.
+
+The code styles apply a monospace font stack to code elements, which makes code more readable and distinguishable from regular text.
+
+Overall, these styles help ensure a consistent and readable experience for users across different devices and browsers.
+*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

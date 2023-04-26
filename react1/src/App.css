@@ -1,0 +1,25 @@
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #f48fb1;
+  box-shadow: 0px 5px 10px #b2596c;
+  transition: transform 0.2s ease-in-out;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6b81;
+  transform: translateY(-2px);
+  box-shadow: 0px 7px 10px #b2596c;
+}
+
+button:active {
+  transform: translateY(0px);
+  box-shadow: 0px 3px 5px #b2596c;
+}
